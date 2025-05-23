@@ -1,6 +1,6 @@
 import { Controller, Get, Header, Param, Query, Req} from '@nestjs/common';
 // import { AllowGuest } from '@src/shared/decorator/roles.decorator';
-import { FederationService } from './federation.service';
+import { FederationService } from './federation.service.js';
 
 @Controller('federation')
 export class FederationController {
